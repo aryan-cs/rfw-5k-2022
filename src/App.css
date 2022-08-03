@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+
+:root {
+
+  --run-blue: #61b8ff;
+  --run-dark-blue: #72a3ec;
+  --run-grey: #2b2b2b;
+
+}
+
+@font-face {
+  font-family: default-font;
+  src: url("/public/font.woff2");
+}
+
+html, body {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--run-grey);
+
+}
+
+::-webkit-scrollbar { width: 5px; }
+
+::-webkit-scrollbar-track { border-radius: 10px; }
+
+::-webkit-scrollbar-thumb { background: var(--run-dark-blue); border-radius: 10px; }
+
+::-webkit-scrollbar-thumb:hover { background: var(--run-blue); }
+
+.App {
+  
+  text-align: justify;
+  font-family: default-font;
+  font-size: 130%;
+  color: white;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.9;
+  
+}
+
+.App-logo {
+
+  height: 12vmin;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 2vmin;
+
+}
+
+.App-header {
+
+  background: -webkit-linear-gradient(45deg, #3e6bae, #61b8ff 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 7vw;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5rem;
+
+}
+
+.App-link { color: var(--run-blue); }
