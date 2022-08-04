@@ -30,8 +30,7 @@
 
 .link:hover {
 
-    /* background: var(--run-bg); */
-    background-color: var(--run-dark-blue);
+    background-color: var(--run-green-blue);
 
 }
 
@@ -70,6 +69,7 @@
     background: none;
     cursor: pointer;
     color: white;
+    float: right;
 
 }
 
@@ -87,9 +87,15 @@
     
 }
 
+.menuButton span:nth-child(2) {
+
+    transition: .4s ease;
+
+}
+
 .menuButton:hover span:nth-child(2) {
 
-    transform: translateX(10px);
+    transform: translateX(-10px);
     background: var(--run-bg);
 
 }

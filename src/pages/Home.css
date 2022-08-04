@@ -4,9 +4,11 @@
 
   --run-blue: #42a3c9;
   --run-dark-blue: #255fb6;
+  --run-green: #42c38d;
+  --run-green-blue: #42c3b6b2;
   --run-grey: #1a1a1a;
 
-  --run-bg: -webkit-linear-gradient(45deg, #255fb6, #42a3c9 80%);
+  --run-bg: -webkit-linear-gradient(45deg, #41ffb0, #42a3c9 80%);
 
 }
 
@@ -74,7 +76,6 @@ html, body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  line-height: 50%;
 
   font-size: 7vw;
   font-family: 'Montserrat', sans-serif;
