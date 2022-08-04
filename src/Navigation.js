@@ -8,8 +8,8 @@ function Navigation(){
                 <div>
                     <div className={styles.menu}>
                         <ul className>
-                            <li className={styles.navBarEntry}><Link to = '/' className={styles.link}>About Us</Link></li>
-                            <li className={styles.navBarEntry}><Link to = '/' className={styles.link}>Registration</Link></li>
+                            <li className={styles.navBarEntry}><Link to = '/about-us' className={styles.link}>About Us</Link></li>
+                            <li className={styles.navBarEntry}><Link to = '/registration' className={styles.link}>Registration</Link></li>
                         </ul>
                     </div>
                     <button className={styles.menuButton}>
