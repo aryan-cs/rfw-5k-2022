@@ -1,0 +1,81 @@
+@font-face {
+    font-family: default-font;
+    src: url("/public/font.woff2");
+}
+
+.menu {
+    display: none;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin: 0 -16px;
+    font-family: default-font;
+}
+
+.link {
+    color: #FFF;
+    margin:  0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 5px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.link:hover {
+    background: var(--run-bg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navBarEntry{
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: default-font;
+}
+
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 16px 32px;
+}
+
+.menuButton {
+    display: block;
+    position: relative;
+    z-index: 1;
+
+    user-select: none;
+
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.menuButton:hover span:nth-child(2) {
+    transform: translateX(10px);
+
+    background: var(--run-bg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .menuButton { display: none; }
+    .menu { display: flex; }
+}
