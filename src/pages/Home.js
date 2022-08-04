@@ -14,7 +14,7 @@ function Home () {
        
        <Navigation/>
 
-       <header className = "App-header"> <p> #RUN FOR WATER <br/> 2022 ｜ 5K </p> </header>
+       <header className = "App-header"> <p> #RUN FOR WATER <br></br> 2022 ｜ 5K </p> </header>
 
        <div>
 

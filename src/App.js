@@ -1,6 +1,4 @@
-// import { Switch, BrowserRouter as Router, Route, Link } from "react-router";
-import { Routes ,Route } from 'react-router-dom';
-import Navigation from './Navigation';
+import { Routes, Route } from 'react-router-dom';
 import AboutUs from './pages/AboutUs';
 import Registration from './pages/Registration';
 import Home from './pages/Home';
@@ -13,13 +11,14 @@ function App () {
 
       <Routes>
           
-        <Route path = '/' element = {<Home/>}/>
+        <Route path = '/run-for-water-5k' element = {<Home/>} />
         
-        <Route path = '/about-us' element = {<AboutUs/>}/>
+        <Route path = '/about-us' element = {<AboutUs/>} />
         
-        <Route path = "/registration" element = {<Registration/>}/>
+        <Route path = "/registration" element = {<Registration/>} />
         
       </Routes>
+
 
     </div>
     
