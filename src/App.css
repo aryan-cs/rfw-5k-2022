@@ -2,17 +2,19 @@
 
 :root {
 
-  --run-blue: #61b8ff;
+  --run-blue: #42a3c9;
   --run-dark-blue: #255fb6;
   --run-grey: #1a1a1a;
 
-  --run-bg: -webkit-linear-gradient(45deg, #2bc955, #00eaff 100%);
+  --run-bg: -webkit-linear-gradient(45deg, #255fb6, #42a3c9 80%);
 
 }
 
 @font-face {
+
   font-family: default-font;
   src: url("/public/font.woff2");
+
 }
 
 html, body {
@@ -50,10 +52,12 @@ html, body {
 .App-logo {
 
   height: 12vmin;
+  width: 12vmin;
   pointer-events: none;
   position: fixed;
   top: 0;
   left: 2vmin;
+  z-index: 100;
 
 }
 
@@ -70,6 +74,7 @@ html, body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 50%;
 
   font-size: 7vw;
   font-family: 'Montserrat', sans-serif;

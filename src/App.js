@@ -8,7 +8,7 @@ function App() {
 
     <div className = "App">
 
-      <img src = "/logo.png" alt = "" className = "App-logo" />
+      <img src={process.env.PUBLIC_URL + '/logo.png'} alt = "" className = "App-logo"/>
       <Navigation/>
 
       <header className = "App-header"> <p> #RUN FOR WATER </p> <p> 2022 ｜ 5K </p> </header>

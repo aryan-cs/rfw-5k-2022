@@ -9,7 +9,9 @@ function Navigation(){
                     <div className={styles.menu}>
                         <ul className>
                             <li className={styles.navBarEntry}><Link to = '/' className={styles.link}>About Us</Link></li>
-                            <li className={styles.navBarEntry}><Link to = '/' className={styles.link}>Registration</Link></li>
+                            <li className={styles.navBarEntry}><Link to = '/' className={styles.link}>Register</Link></li>
+                            <li className={styles.navBarEntry}><Link to = '/' className={styles.link}>Donate</Link></li>
+                            <li className={styles.navBarEntry}><Link to = '/' className={styles.link}>Learn More</Link></li>
                         </ul>
                     </div>
                     <button className={styles.menuButton}>
