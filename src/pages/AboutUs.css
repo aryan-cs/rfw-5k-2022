@@ -1,0 +1,14 @@
+.AboutUs {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.AboutUs Card:nth-child(1) {
+    transform: translateX(50%);
+}
