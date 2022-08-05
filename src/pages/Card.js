@@ -17,8 +17,8 @@ function Card (props) {
             <div className = "Card-links">
 
                 <button className = "Card-button material-symbols-rounded"> link </button>
-                <button class = "Card-button fa fa-github"/>
-                <button class = "Card-button fa fa-linkedin"/>
+                <button className = "Card-button fa fa-github"/>
+                <button className = "Card-button fa fa-linkedin"/>
 
             </div>
             
