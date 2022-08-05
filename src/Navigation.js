@@ -4,7 +4,7 @@ import styles from './Navigation.module.css';
 
 function Navigation () {
 
-    const [isActive, setActive] = useState(false);
+    const [isActive, setActive] = useState(true);
     
     const toggleClass = () => { setActive(!isActive); };
 
@@ -22,10 +22,9 @@ function Navigation () {
 
                         <ul className = "pageLinks">
 
-                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Home </Link></li>
-                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> About Us </Link></li>
                             <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.link}> Registration </Link></li>
-
+                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> About Us </Link></li>
+                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Home </Link></li>
                         </ul>
 
                     </div>
@@ -42,17 +41,19 @@ function Navigation () {
 
             </nav>
 
-            <nav className = {isActive ? styles.mobileNavBar : null} onClick = {toggleClass}>
+            <div className= {isActive ? styles.mobileMenuSection : null}>
+                <nav className = {styles.mobileNavBar} onClick = {toggleClass}>
 
-                <ul className = {styles.doNothing}>
+                    <ul className = {styles.doNothing}>
 
-                    <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> Home </Link></li>
-                    <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> About Us </Link></li>
-                    <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.mobileLink}> Registration </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> Home </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> About Us </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.mobileLink}> Registration </Link></li>
 
-                </ul>
+                    </ul>
 
-            </nav>
+                </nav>
+            </div>
 
         </div>
     );

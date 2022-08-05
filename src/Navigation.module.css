@@ -100,26 +100,27 @@
     position: relative;
     background-color: #EEEEEE;
     border-radius: 6px;
-    z-index: 1;
+    z-index: 10000;
     transform-origin: 0 0;
     
 }
 
 .menuButton span:nth-child(2) { transition: .4s ease-in-out; }
 
-.menuButton:click span:nth-child(2) {
+/* .menuButton:click span:nth-child(2) {
 
     transform: translateX(-10px);
     background: white;
 
-}
+} */
 
 /* desktop mode */
 @media (min-width: 768px) { 
 
     .menuButton { display: none; }
-    .mobileNavBarEntry { display: none};
+    .mobileNavBarEntry { display: none;}
     .menu { display: flex; }
+    .mobileNavBar{display: none;}
 
 }
 
@@ -128,29 +129,12 @@
 
     .navBarEntry { display: none; }
     .logo { display: none; }
-    .mobileNavBarEntry { display: none; }
 
 }
 
 .mobileNavBar {
-
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	min-height: 100vh;
-	display: block;
-	z-index: 98;
-	background-color: var(--run-blue);
-	padding-top: 120px;
-	transition: 0.4s;
-
-}
-
-nav.isActive {
     
     position: fixed;
-    float: right;
     top: 0;
     right: 0;
     width: 100%;
@@ -164,8 +148,10 @@ nav.isActive {
 	background-color: var(--run-blue);
 	color: #FFF;
 	text-decoration: none;
+	transition: 0.4s;
 
 }
+
 
 .mobileNavBarEntry {
 
@@ -183,4 +169,16 @@ li {
 
     list-style-type: none;
     text-decoration: none;
+}
+
+.isActive {
+    opacity: 1;
+    height: auto;
+}
+
+.mobileMenuSection {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
 }
