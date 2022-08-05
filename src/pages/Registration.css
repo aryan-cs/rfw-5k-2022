@@ -1,0 +1,9 @@
+.Registration {
+
+    font-family: default-font;
+    background-color: var(--run-grey);
+    color: white;
+    font-size: 130%;
+    line-height: 1.9;
+
+}

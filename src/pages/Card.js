@@ -12,6 +12,10 @@ function Card (props) {
                 <p className = "Card-name"> {props.name.toUpperCase()} </p>
                 <p className = "Card-role"> {props.role} </p>
 
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+                <button className = "Card-button"> <span className="material-symbols-outlined"> link </span> </button>
+
             </div>
             
         </div>

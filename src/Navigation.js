@@ -4,38 +4,63 @@ import styles from './Navigation.module.css';
 
 function Navigation () {
 
-    return ( 
+    return (
+        
+        <div>
 
-        <nav className = {styles.navBar}>
+            <nav className = {styles.navBar}>
 
-            <div>
+                <div>
 
-                <div className = {styles.menu}>
-                    <img src = {process.env.PUBLIC_URL + "/assets/" + "logo.png"}className={styles.logo}></img>
+                    <div className = {styles.menu}>
 
-                    <ul>
-                        
-                        <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Home </Link></li>
-                        <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> About Us </Link></li>
-                        <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.link}> Registration </Link></li>
+                        <img src = {process.env.PUBLIC_URL + "/assets/logo.png"} alt = "" className = {styles.logo}></img>
 
-                    </ul>
+                        <ul>
+
+                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Home </Link></li>
+                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> About Us </Link></li>
+                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.link}> Registration </Link></li>
+
+                        </ul>
+
+                    </div>
+
+                    <button className = {styles.menuButton} id = "menuBtn" onClick = {expandMenu}>
+
+                        <span className = {styles.buttonLine}></span>
+                        <span className = {styles.buttonLine}></span>
+                        <span className = {styles.buttonLine}></span>
+
+                    </button>
 
                 </div>
 
-                <button className = {styles.menuButton}>
+            </nav>
 
-                    <span className = {styles.buttonLine}></span>
-                    <span className = {styles.buttonLine}></span>
-                    <span className = {styles.buttonLine}></span>
+            <nav className = {styles.mobileNavBar} id = 'mobileNavbar'>
 
-                </button>
+                <ul>
 
-            </div>
+                    <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Home </Link></li>
+                    <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> About Us </Link></li>
+                    <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.link}> Registration </Link></li>
 
-        </nav>
+                </ul>
 
+            </nav>
+
+        </div>
     );
+}
+
+function expandMenu () {
+
+    const hamburgerBtn = document.querySelector("#menuBtn");    
+    const mobileMenu = document.querySelector("mobileNavbar");
+    console.log('expand');
+    hamburgerBtn.classList.toggle('is-active');
+    mobileMenu.classList.toggle('is-active');
     
 }
 
