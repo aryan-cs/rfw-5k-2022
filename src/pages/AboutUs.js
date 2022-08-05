@@ -7,15 +7,17 @@ function AboutUs () {
 
         <div className = "AboutUs" id = "AboutUsPage">
 
-            <Card person = "shiven" name = "Shiven Patel" role = "Air Patel 23"/>
-            <Card person = "aryan" name = "Aryan Gupta" role = "Head of Graphics & Website Design"/>
-            <Card person = "sid" name = "Sid Dayaneni" role = "Head of Website Development"/>
-            <Card person = "Gerard" name = "Gerard Smith" role = "King Lord God Gerard"/>
-            <Card person = "Gerard" name = "Gerard Smith" role = "King Lord God Gerard"/>
-            <Card person = "Gerard" name = "Gerard Smith" role = "King Lord God Gerard"/>
-            <Card person = "Gerard" name = "Gerard Smith" role = "King Lord God Gerard"/>
-            <Card person = "Gerard" name = "Gerard Smith" role = "King Lord God Gerard"/>
-            <Card person = "Gerard" name = "Gerard Smith" role = "King Lord God Gerard"/>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+            <Card person = "shiven"
+                  name = "Shiven Patel"
+                  role = "Founder"
+                  links = {["google.com", "google.com"]}/>
+
+            <Card person = "aryan" name = "Aryan Gupta" role = "Head of Graphics & Web Dev"/>
+            <Card person = "sid" name = "Sid Dayaneni" role = "Web Dev"/>
+
+            <Card person = "Gerard" name = "Gerard Smith" role = "Swami Guru"/>
 
 
         </div>

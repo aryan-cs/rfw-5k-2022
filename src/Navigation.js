@@ -3,12 +3,10 @@ import {Link} from 'react-scroll';
 import styles from './Navigation.module.css';
 
 function Navigation () {
+
     const [isActive, setActive] = useState(true);
     
-    const toggleClass = () => {
-        setActive(!isActive);
-    };
-    
+    const toggleClass = () => { setActive(!isActive); };
 
     return (
         

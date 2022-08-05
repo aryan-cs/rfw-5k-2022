@@ -9,5 +9,3 @@
 }
 
 .AboutUs::-webkit-scrollbar { display: none; }
-
-.AboutUs Card:nth-child(1) { transform: translateX(50%); }
