@@ -135,11 +135,19 @@
     transition: 0.4s;
 }
 
-.mobileNavBar.is-active {
+.isActive {
+    position: fixed;
+    top: 0;
     left: 0;
-}
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    z-index: 200;
+    background-color: var(--run-grey);
+    padding-top: 120px;
+    transition: 0.4s;}
 
-.menuButton.is-active {
+.isActiveBtn {
     opacity: 0;
 }
 

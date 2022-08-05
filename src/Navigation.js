@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from "react";
 import {Link} from 'react-scroll';
 import styles from './Navigation.module.css';
 
 function Navigation () {
+    const [isActive, setActive] = useState(true);
+    
+    const toggleClass = () => {
+        setActive(!isActive);
+    };
+    
 
     return (
         
@@ -26,7 +32,7 @@ function Navigation () {
 
                     </div>
 
-                    <button className = {styles.menuButton} id = "menuBtn" onClick = {expandMenu}>
+                    <button className={styles.menuButton} onClick={toggleClass}>
 
                         <span className = {styles.buttonLine}></span>
                         <span className = {styles.buttonLine}></span>
@@ -38,8 +44,7 @@ function Navigation () {
 
             </nav>
 
-            <nav className = {styles.mobileNavBar} id = 'mobileNavbar'>
-
+            <nav className={isActive ? styles.mobileNavBar : null} onClick={toggleClass}>
                 <ul>
 
                     <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Home </Link></li>
@@ -54,14 +59,17 @@ function Navigation () {
     );
 }
 
-function expandMenu () {
+// function expandMenu () {
 
-    const hamburgerBtn = document.querySelector("#menuBtn");    
-    const mobileMenu = document.querySelector("mobileNavbar");
-    console.log('expand');
-    hamburgerBtn.classList.toggle('is-active');
-    mobileMenu.classList.toggle('is-active');
-    
-}
+//     const hamburgerBtn = document.querySelector("#menuBtn");    
+//     const mobileMenu = document.querySelector("#mobileNavbar");
+//     // console.log(hamburgerBtn);
+//     // console.log(mobileMenu);
+//     hamburgerBtn.classList.toggle({styles.isActiveBtn});
+//     mobileMenu.classList.toggle({styles.isActiveBar});
+//     console.log("hamburger: " + hamburgerBtn.classList.contains('isActiveBtn'));
+//     console.log("menu: " + mobileMenu.classList.contains('isActiveBar'));
+// }
+
 
 export default Navigation;
