@@ -2,7 +2,7 @@
   "name": "run-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aryan-cs.github.io/run-for-water-5k",
+  "homepage": "https://runforwater5k.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
