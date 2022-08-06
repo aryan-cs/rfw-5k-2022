@@ -16,6 +16,7 @@
     color: white;
     text-align: center;
     text-decoration: none;
+    background-color: var(--run-grey);
     font-family: 'Montserrat', sans-serif;
     font-size: 200%;
     border-radius: 50em;

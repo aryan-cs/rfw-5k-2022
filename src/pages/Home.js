@@ -12,7 +12,7 @@ function Home () {
         <header className = "App-header"> <p> #RUN FOR WATER <br></br> 2022 ｜ 5K </p> </header>
 
         <p className = "App-slogan"> CLEAN WATER, ONE STRIDE AT A TIME </p>
-        <p className = "App-info"> August 28, 2022 | Busse Woods Grove 29 </p>
+        <p className = "App-info"> August 28, 2022 ｜ Busse Woods Grove 29 </p>
         <p className = "App-info"> Goals: 250 runners, $6000 donation </p>
 
 

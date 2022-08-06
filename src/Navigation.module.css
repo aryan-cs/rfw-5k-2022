@@ -32,7 +32,7 @@
     color: #FFF;
     margin:  0 16px;
     font-weight: 100;
-    font-size: 110%;
+    font-size: 1.5em;
     text-decoration: none;
     transition: 0.4s;
     padding: 8px 16px;
@@ -173,6 +173,7 @@ li {
 
     opacity: 1;
     height: auto;
+    pointer-events: auto;
 
 }
 
@@ -182,5 +183,6 @@ li {
     opacity: 0;
     height: 0;
     overflow: hidden;
+    pointer-events: none;
 
 }

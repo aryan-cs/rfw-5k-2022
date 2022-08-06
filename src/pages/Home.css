@@ -62,10 +62,22 @@ html, body {
   background-clip: text;
   color: transparent;
 
-  font-size: 3vw;
-  line-height: 1.9;
+  font-size: 1em;
+  line-height: 2.5;
   font-weight: bold;
   transform: translateY(-13rem);
+  
+}
+
+/* mobile mode */
+@media (max-width: 768px) {
+  
+  .App-slogan {
+    
+    font-size: 3.5vw;
+    line-height: 1.9;
+    
+  }
   
 }
 

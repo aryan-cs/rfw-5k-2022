@@ -22,19 +22,19 @@ function Card (props) {
 
                     if (item.includes("github")) {
 
-                       return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-github" key = {index} href = {item}>  </button>
+                       return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-brands fa-github" key = {index} href = {item}/>
 
                     }
 
                     else if (item.includes("linkedin")) {
 
-                        return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-linkedin" href = {item}/>
+                        return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-brands fa-linkedin" key = {index} href = {item}/>
  
                     }
 
                     else if (item.includes("mail")) {
 
-                        return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-envelope" href = {item}/>
+                        return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-brands fa-envelope" key = {index} href = {item}/>
                     
                     }
 

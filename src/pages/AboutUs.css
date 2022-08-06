@@ -10,7 +10,7 @@
 
 }
 
-.AboutUs > .Card:nth-of-type(1) { transform: translateX(-0.5rem); }
+/* .AboutUs > .Card:nth-of-type(1) { transform: translateX(-0.25rem); } */
 
 .Left-arrow {
 
