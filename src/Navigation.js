@@ -29,20 +29,21 @@ function Navigation () {
 
                     </div>
 
-                    <button className = {styles.menuButton} onClick = {toggleClass}>
-
-                        <span className = {styles.buttonLine}></span>
-                        <span className = {styles.buttonLine}></span>
-                        <span className = {styles.buttonLine}></span>
-
-                    </button>
-
                 </div>
 
             </nav>
 
+            <button className = {styles.menuButton} onClick = {toggleClass}>
+
+                        <span className = {styles.buttonLine}></span>
+                        <span className = {styles.buttonLine}></span>
+                        <span className = {styles.buttonLine}></span>
+
+            </button>
+
             <div className= {isActive ? styles.mobileMenuSection : null}>
-                <nav className = {styles.mobileNavBar} onClick = {toggleClass}>
+                
+                <nav className = {styles.mobileNavBar}>
 
                     <ul className = {styles.doNothing}>
 

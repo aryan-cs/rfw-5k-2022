@@ -16,7 +16,11 @@ function AboutUs () {
 
             <Card person = "aryan" name = "Aryan Gupta" role = "Head of Graphics & Web Dev"/>
             <Card person = "sid" name = "Sid Dayaneni" role = " Head of Web Dev"/>
-            <Card person = "andrea" name = "Andrea Kehaiova" role = "Bibs 'n Shi"/>
+            <Card person = "amani" name = "Amani Julia Urban" role = "Head of Fundraising"/>
+            <Card person = "andrea" name = "Andrea Kehaiova" role = "Head of Advertising"/>
+            <Card person = "stephanie" name = "Stephanie Filtcheva" role = "Fundraising"/>
+            <Card person = "liam" name = "Liam Cunningham" role = "Fundraising"/>
+            <Card person = "reyna" name = "Reyna Shah" role = "Outreach"/>
 
         </div>
 
