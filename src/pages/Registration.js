@@ -4,9 +4,13 @@ function Registration () {
 
     return (
 
-        <div className = "App" id = "RegistrationPage">
+        <div className = "Registration" id = "RegistrationPage">
 
-            <p> click here to fill out the registration form! </p>
+            <a className = "Registration-link" rel = "noreferrer" target="_blank" href = "https://docs.google.com/forms/d/e/1FAIpQLSe2R-ddiU4X2_wGuil-8-2UVRTYji9q0Ign8S6Br8RW7dAx7Q/viewform?usp=sf_link">
+
+                REGISTER
+
+            </a>
 
         </div>
 

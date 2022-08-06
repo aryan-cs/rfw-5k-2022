@@ -3,7 +3,34 @@
     font-family: default-font;
     background-color: var(--run-grey);
     color: white;
-    font-size: 130%;
+    font-size: 200%;
     line-height: 1.9;
+
+}
+
+.Registration-link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    border-radius: 50em;
+    margin: 3em;
+    padding: 1em;
+    border: 3px solid white;
+    transition: color 0.4s ease-in-out;
+
+}
+
+.Registration-link:hover {
+
+    transition: scale(1.1);
+    background-image: var(--run-bg);
+    background-clip: text;
+    color: transparent;
 
 }

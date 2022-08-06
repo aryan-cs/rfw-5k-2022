@@ -41,15 +41,15 @@ function Navigation () {
 
             </button>
 
-            <div className= {isActive ? styles.mobileMenuSection : null}>
+            <div className = {isActive ? styles.mobileMenuSection : null}>
                 
                 <nav className = {styles.mobileNavBar}>
 
                     <ul className = {styles.doNothing}>
 
-                        <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> Home </Link></li>
-                        <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> About Us </Link></li>
-                        <li className = {styles.mobileNavBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.mobileLink}> Registration </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> Home </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> About Us </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} xactiveClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.mobileLink}> Registration </Link></li>
 
                     </ul>
 
