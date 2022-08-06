@@ -72,10 +72,10 @@ function AboutUs () {
                       role = "Outreach"
                       links = {["https://mail.google.com/mail/?view=cm&fs=1&to=reynapshah@gmail.com", "https://www.linkedin.com/in/reyna-shah-748311226/"]}/>
 
-                {/* <Card person = "avi"
+                <Card person = "avi"
                       name = "Avi Shah"
                       role = "Professional V-Sitter"
-                      links = {[]}/> */}
+                      links = {[]}/>
 
                 <Card person = "ankit"
                       name = "Ankit Rath"
