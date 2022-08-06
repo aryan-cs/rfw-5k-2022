@@ -1,11 +1,37 @@
 .AboutUs {
 
-    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: hidden;
+    behavior: smooth;
 
 }
 
-.AboutUs::-webkit-scrollbar { display: none; }
+.AboutUs > .Card:nth-of-type(1) { transform: translateX(-0.5rem); }
+
+.Left-arrow {
+
+    color: var(--run-blue);
+    position: absolute;
+    left: 1rem;
+    margin-top: 20rem;
+    z-index: 205;
+    cursor: pointer;
+    transform: scale(2);
+
+}
+
+.Right-arrow {
+
+    color: var(--run-blue);
+    position: absolute;
+    right: 1rem;
+    margin-top: 20rem;
+    z-index: 205;
+    cursor: pointer;
+    transform: scale(2);
+
+}

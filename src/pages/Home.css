@@ -22,6 +22,7 @@ html, body {
   font-family: default-font;
   background-color: var(--run-grey);
   color: white;
+  overflow-x: hidden;
 
 }
 
@@ -35,12 +36,14 @@ html, body {
 
 .App {
   
-  text-align: justify;
+  font-family: default-font;
+  text-align: center;
   align-items: center;
-  font-size: 130%;
+  font-size: 1.5rem;
   color: white;
   max-width: 80%;
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -48,6 +51,54 @@ html, body {
   justify-content: center;
   line-height: 1.9;
   
+}
+
+.App-slogan {
+
+  font-family: 'Montserrat', sans-serif;
+  /* color: var(--run-blue); */
+
+  background-image: var(--run-bg);
+  background-clip: text;
+  color: transparent;
+
+  font-size: 3vw;
+  line-height: 1.9;
+  font-weight: bold;
+  transform: translateY(-13rem);
+  
+}
+
+.App-emph {
+
+  font-family: default-font;
+  color: var(--run-blue);
+  font-size: 2rem;
+  line-height: 1.9;
+  font-weight: bold;
+
+}
+
+.App-info {
+
+  font-family: default-font;
+  color: var(--run-blue);
+  font-size: 2rem;
+  line-height: 1.9;
+  font-weight: bold;
+
+}
+
+.App-subheader {
+
+  font-family: 'Montserrat', sans-serif;
+  color: var(--run-blue);
+  font-size: 3rem;
+  line-height: 1.9;
+  font-weight: bold;
+  transform: translateY(5rem);
+
+
 }
 
 .App-header {
@@ -62,11 +113,10 @@ html, body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 0;
 
   font-size: 7vw;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.5rem;
 
 }
-
-.App-link { color: var(--run-blue); }

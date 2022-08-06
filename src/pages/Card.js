@@ -16,9 +16,31 @@ function Card (props) {
 
             <div className = "Card-links">
 
-                <button className = "Card-button material-symbols-rounded"> link </button>
-                <button className = "Card-button fa fa-github"/>
-                <button className = "Card-button fa fa-linkedin"/>
+            <ul>
+
+                {props.links.map((item, index) => {
+
+                    if (item.includes("github")) {
+
+                       return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-github" key = {index} href = {item}>  </button>
+
+                    }
+
+                    else if (item.includes("linkedin")) {
+
+                        return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-linkedin" href = {item}/>
+ 
+                    }
+
+                    else if (item.includes("mail")) {
+
+                        return <button onClick = {() => window.open(item, '_blank', 'noopener, noreferrer')} className = "Card-button fa fa-envelope" href = {item}/>
+                    
+                    }
+
+                })}
+
+            </ul>
 
             </div>
             

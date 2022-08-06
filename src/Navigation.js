@@ -22,8 +22,8 @@ function Navigation () {
 
                         <ul className = "pageLinks">
 
-                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.link}> Registration </Link></li>
-                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> About Us </Link></li>
+                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.link}> Register </Link></li>
+                            <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Who We Are </Link></li>
                             <li className = {styles.navBarEntry}><Link activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.link}> Home </Link></li>
                         </ul>
 
@@ -48,8 +48,8 @@ function Navigation () {
                     <ul className = {styles.doNothing}>
 
                         <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} activeClass = "active" to = 'HomePage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> Home </Link></li>
-                        <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> About Us </Link></li>
-                        <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} xactiveClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.mobileLink}> Registration </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} activeClass = "active" to = 'AboutUsPage' smooth = {true} offset = {-70}  duration = {750}  className = {styles.mobileLink}> Who We Are </Link></li>
+                        <li className = {styles.mobileNavBarEntry}><Link onClick = {toggleClass} activeClass = "active" to = 'RegistrationPage' smooth = {true} offset = {-70}  duration = {1000}  className = {styles.mobileLink}> Registration </Link></li>
 
                     </ul>
 

@@ -78,8 +78,8 @@
     display: block;
     position: fixed;
     z-index: 300;
-    top: 10px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
     user-select: none;
     appearance: none;
     border: none;
