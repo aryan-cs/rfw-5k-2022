@@ -39,18 +39,13 @@ function AboutUs () {
                                             
                 <Card person = "sid"
                       name = "Sid Dayaneni"
-                      role = "quand pundi"
+                      role = "Head of Web Dev"
                       links = {["https://mail.google.com/mail/?view=cm&fs=1&to=siddharth.dayaneni@gmail.com", "https://github.com/SidD11111"]}/>
 
                 <Card person = "amani"
                       name = "Amani Urban"
                       role = "Head of Fundraising"
                       links = {["https://mail.google.com/mail/?view=cm&fs=1&to=amani.urban@gmail.com"]}/>
-
-                <Card person = "andrea"
-                      name = "Andrea Kehaiova"
-                      role = "Head of Outreach"
-                      links = {["https://mail.google.com/mail/?view=cm&fs=1&to=andreakehaiova@gmail.com"]}/>
 
                 <Card person = "andrea"
                       name = "Andrea Kehaiova"
