@@ -39,13 +39,18 @@ function AboutUs () {
                                             
                 <Card person = "sid"
                       name = "Sid Dayaneni"
-                      role = "Head of Web Dev"
+                      role = "quand pundi"
                       links = {["https://mail.google.com/mail/?view=cm&fs=1&to=siddharth.dayaneni@gmail.com", "https://github.com/SidD11111"]}/>
 
                 <Card person = "amani"
                       name = "Amani Urban"
                       role = "Head of Fundraising"
                       links = {["https://mail.google.com/mail/?view=cm&fs=1&to=amani.urban@gmail.com"]}/>
+
+                <Card person = "andrea"
+                      name = "Andrea Kehaiova"
+                      role = "Head of Outreach"
+                      links = {["https://mail.google.com/mail/?view=cm&fs=1&to=andreakehaiova@gmail.com"]}/>
 
                 <Card person = "andrea"
                       name = "Andrea Kehaiova"
@@ -67,17 +72,22 @@ function AboutUs () {
                       role = "Outreach"
                       links = {["https://mail.google.com/mail/?view=cm&fs=1&to=reynapshah@gmail.com", "https://www.linkedin.com/in/reyna-shah-748311226/"]}/>
 
-                <Card person = "avi"
+                {/* <Card person = "avi"
                       name = "Avi Shah"
-                      role = "First Aid"
-                      links = {[]}/>
+                      role = "Professional V-Sitter"
+                      links = {[]}/> */}
 
                 <Card person = "ankit"
                       name = "Ankit Rath"
                       role = "Commanding Officer of Emotional Support Squadron"
                       links = {["https://mail.google.com/mail/?view=cm&fs=1&to=ankitrath2000@gmail.com"]}/>
 
-                <Card person = "siya"
+               <Card person = "gerard"
+                      name = "Gerard de la Cruz"
+                      role = "Swami of the Sacred Heart"
+                      links = {[]}/>
+
+                {/* <Card person = "siya"
                       name = "Siya Jariwala"
                       role = "Volunteer"
                       links = {["https://www.linkedin.com/in/siya-jariwala/", "https://mail.google.com/mail/?view=cm&fs=1&to=siyacj08@gmail.com"]}/>
@@ -85,7 +95,7 @@ function AboutUs () {
                 <Card person = "ruchika"
                       name = "Ruchika Rout"
                       role = "Volunteer"
-                      links = {["https://www.linkedin.com/in/ruchika-rout-285193226/"]}/>
+                      links = {["https://www.linkedin.com/in/ruchika-rout-285193226/"]}/> */}
             
             </div>
             
