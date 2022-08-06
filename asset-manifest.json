@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/run-for-water-5k/static/css/main.0bdd1e9d.css",
-    "main.js": "/run-for-water-5k/static/js/main.297dae15.js",
-    "static/js/787.5e7694e9.chunk.js": "/run-for-water-5k/static/js/787.5e7694e9.chunk.js",
-    "static/media/font.woff2": "/run-for-water-5k/static/media/font.b85aba51cf167bf2fe4a.woff2",
-    "index.html": "/run-for-water-5k/index.html",
-    "main.0bdd1e9d.css.map": "/run-for-water-5k/static/css/main.0bdd1e9d.css.map",
-    "main.297dae15.js.map": "/run-for-water-5k/static/js/main.297dae15.js.map",
-    "787.5e7694e9.chunk.js.map": "/run-for-water-5k/static/js/787.5e7694e9.chunk.js.map"
+    "main.css": "/static/css/main.b4898866.css",
+    "main.js": "/static/js/main.5e87f2dd.js",
+    "static/js/787.5e7694e9.chunk.js": "/static/js/787.5e7694e9.chunk.js",
+    "static/media/font.woff2": "/static/media/font.b85aba51cf167bf2fe4a.woff2",
+    "index.html": "/index.html",
+    "main.b4898866.css.map": "/static/css/main.b4898866.css.map",
+    "main.5e87f2dd.js.map": "/static/js/main.5e87f2dd.js.map",
+    "787.5e7694e9.chunk.js.map": "/static/js/787.5e7694e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bdd1e9d.css",
-    "static/js/main.297dae15.js"
+    "static/css/main.b4898866.css",
+    "static/js/main.5e87f2dd.js"
   ]
 }
