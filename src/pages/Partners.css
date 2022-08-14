@@ -1,0 +1,37 @@
+.Partners {
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+
+    .Partners {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+
+.Partner-subheader {
+
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    margin: 1em;
+
+}
+
+.Partner-link {
+
+    margin: 2em;
+    width: 15em;
+    height: 15em;
+    cursor: pointer;
+
+}

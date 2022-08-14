@@ -1,4 +1,7 @@
 import './Registration.css'; 
+import Link from "./Link";
+import "./Link.css";
+import './Home.css'; 
 
 function Registration () {
 
@@ -11,6 +14,35 @@ function Registration () {
                 REGISTER
 
             </button>
+
+            <p className = "App-subheader"> PAYMENT & DONATION OPTIONS </p>
+            <p> Registration fees & donations can be sent to Shiven Patel via Google Pay, Apple Pay, and Zelle </p>
+
+            <div className = "donationDiv">
+
+                <Link code = "/assets/links/googlecode.png"
+                      image = "/assets/links/google.png"
+                      alt = "Google Pay"
+                      link = "https://gpay.app.goo.gl/pay-O6d1RyMjBIT"/>
+
+                <Link code = "/assets/links/zellecode.png"
+                      image = "/assets/links/zelle.png"
+                      alt = "Zelle"
+                      link = "https://enroll.zellepay.com/qr-codes?data=ewogICJuYW1lIiA6ICJTSElWRU4iLAogICJ0b2tlbiIgOiAiODQ3NDc3NDE0MCIsCiAgImFjdGlvbiIgOiAicGF5bWVudCIKfQ=="/>
+
+                <div className = "Link">
+
+                    <img src = {process.env.PUBLIC_URL + "assets/links/apple.png"}
+                        className = 'Link-type'
+                        alt = "Apple Pay"
+                        rel = "noreferrer"
+                        target = "_blank"/>   
+
+                    <p> For Apple Pay options, forward money to <br/> <span className = "App-emph">+1 847-477-4140</span> </p>
+
+                </div>
+
+            </div>
 
         </div>
 

@@ -1,0 +1,21 @@
+.Link {
+
+    width: 20em;
+    margin: 3em;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+.Link:hover {
+
+    scale: 1.1;
+
+}
+
+.Link-type {
+
+    width: 15em;
+
+}

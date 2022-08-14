@@ -5,6 +5,13 @@
     color: white;
     font-size: 1em;
     line-height: 1.9;
+    text-align: center;
+
+}
+
+.Registration p {
+
+    margin-bottom: 2em;
 
 }
 
@@ -20,11 +27,12 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 200%;
     border-radius: 50em;
-    margin: 20vw;
-    width: 60vw;
+    margin: 10vw;
+    width: 80vw;
     height: 10vh;
     border: 3px solid white;
     transition: 0.4s ease-in-out;
+    cursor: pointer;
 
 }
 
@@ -32,7 +40,26 @@
 
     background-color: var(--run-blue);
     color: var(--run-grey);
-
     border: 3px solid var(--run-blue);
 
+}
+
+.donationDiv {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+
+}
+
+@media (max-width: 768px) {
+
+    .donationDiv {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
 }

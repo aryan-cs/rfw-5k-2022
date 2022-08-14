@@ -3,6 +3,7 @@ import AboutUs from './pages/AboutUs';
 import Registration from './pages/Registration';
 import Home from './pages/Home';
 import Navigation from './Navigation';
+import Partners from './pages/Partners';
 
 function App () {
 
@@ -14,6 +15,7 @@ function App () {
       <Home/>
       <AboutUs/>
       <Registration/>
+      <Partners/>
           
     </div>
     
