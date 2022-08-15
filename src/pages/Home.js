@@ -9,10 +9,14 @@ function Home () {
 
       <div className = "App" id="HomePage">
        
-        <header className = "App-header"> <p> #RUN FOR WATER <br></br> 2022 ｜ 5K </p> </header>
+        <header className = "App-header">
+          
+          <p> #RUN FOR WATER <br></br> 2022 ｜ 5K </p>
+          <p className = "App-slogan"> CLEAN WATER, ONE STRIDE AT A TIME  </p>
+          
+          </header>
 
-        <p className = "App-slogan"> CLEAN WATER, ONE STRIDE AT A TIME  </p>
-        <p className = "App-info"> August 28, 2022 ｜ Busse Woods Grove 29 ｜ 9:00 a.m.</p>
+        <p className = "App-info"> August 28, 2022 ｜ Busse Woods Grove 29 ｜ 9:00 a.m. ｜ $30 per entry </p>
         <p className = "App-info"> Goals: 250 runners, $6000 donation </p>
 
 

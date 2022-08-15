@@ -53,22 +53,6 @@ html, body {
   
 }
 
-.App-slogan {
-
-  font-family: 'Montserrat', sans-serif;
-  /* color: var(--run-blue); */
-
-  background-image: var(--run-bg);
-  background-clip: text;
-  color: transparent;
-
-  font-size: 1em;
-  line-height: 2.5;
-  font-weight: bold;
-  transform: translateY(-13rem);
-  
-}
-
 /* mobile mode */
 @media (max-width: 768px) {
   
@@ -86,7 +70,7 @@ html, body {
   font-family: default-font;
   color: var(--run-blue);
   font-size: 2rem;
-  line-height: 1.9;
+  line-height: 1.6;
   font-weight: bold;
 
 }
@@ -106,7 +90,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   color: var(--run-blue);
   font-size: 3rem;
-  line-height: 1.9;
+  line-height: 1.7;
   font-weight: bold;
   transform: translateY(5rem);
 
@@ -131,4 +115,20 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.5rem;
 
+}
+
+.App-slogan {
+
+  font-family: 'Montserrat', sans-serif;
+
+  background-image: var(--run-bg);
+  background-clip: text;
+  color: transparent;
+
+  margin-top: 5em;
+  font-size: 0.5em;
+  line-height: 2.5;
+  font-weight: bold;
+  letter-spacing: 0;
+  
 }

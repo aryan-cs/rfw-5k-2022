@@ -17,6 +17,12 @@ function Registration () {
 
             <p className = "App-subheader"> PAYMENT & DONATION OPTIONS </p>
             <p> Registration fees & donations can be sent to Shiven Patel via Google Pay, Apple Pay, and Zelle </p>
+            <p>
+
+                WHEN PAYING THE REGISTRATION FEE, <br/><span className = "App-emph">PLEASE INCLUDE YOUR FULL NAME IN THE MEMO</span><br/> SO YOU CAN BE VERIFIED ON RACE DAY.
+                <br/><span className = "App-emph">PAYMENTS WITH NO NAME WILL BE CONSIDERED DONATIONS TO OUR CAUSE</span>
+                
+            </p>
 
             <div className = "donationDiv">
 
@@ -38,7 +44,7 @@ function Registration () {
                         rel = "noreferrer"
                         target = "_blank"/>   
 
-                    <p> For Apple Pay options, forward money to <br/> <span className = "App-emph">+1 847-477-4140</span> </p>
+                    <p> For Apple Pay, forward money to <br/> <span className = "App-emph">+1 847-477-4140</span> </p>
 
                 </div>
 
