@@ -1,7 +1,4 @@
 import './Home.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import AboutUs from './AboutUs';
-import Registration from './Registration';
 
 function Home () {
 

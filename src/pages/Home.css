@@ -3,7 +3,6 @@
 :root {
 
   --run-blue: #12acff;
-  --run-dark-blue: #011844;
   --run-grey: #1a1a1a;
 
   --run-bg: linear-gradient(45deg, #1b63ff, #12e3ff);
@@ -50,18 +49,6 @@ html, body {
   align-items: center;
   justify-content: center;
   line-height: 1.9;
-  
-}
-
-/* mobile mode */
-@media (max-width: 768px) {
-  
-  .App-slogan {
-    
-    font-size: 3.5vw;
-    line-height: 1.9;
-    
-  }
   
 }
 
@@ -120,15 +107,21 @@ html, body {
 .App-slogan {
 
   font-family: 'Montserrat', sans-serif;
-
-  background-image: var(--run-bg);
-  background-clip: text;
-  color: transparent;
-
-  margin-top: 5em;
-  font-size: 0.5em;
+  color: var(--run-blue);
+  font-size: 0.2em;
   line-height: 2.5;
   font-weight: bold;
   letter-spacing: 0;
+  
+}
+
+@media (max-width: 768px) {
+  
+  .App-slogan {
+    
+    font-size: 3vw;
+    line-height: 1.6;
+    
+  }
   
 }
