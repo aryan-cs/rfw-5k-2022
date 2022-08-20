@@ -1,7 +1,7 @@
 .AboutUs {
 
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -9,8 +9,6 @@
     behavior: smooth;
 
 }
-
-/* .AboutUs > .Card:nth-of-type(1) { transform: translateX(-0.25rem); } */
 
 .Left-arrow {
 

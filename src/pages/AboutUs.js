@@ -36,28 +36,54 @@ function AboutUs () {
           
           <Card person = "aryan"
                 name = "Aryan Gupta"
-                role = "Head of Graphics & Web Dev"
+                role = "Graphics & Web Dev"
                 links = {["https://mail.google.com/mail/?view=cm&fs=1&to=aryan05g@gmail.com", "https://github.com/aryan-cs"]}/>
                                       
           <Card person = "sid"
                 name = "Sid Dayaneni"
-                role = "Head of Web Dev"
+                role = "Web Dev"
                 links = {["https://mail.google.com/mail/?view=cm&fs=1&to=siddharth.dayaneni@gmail.com", "https://github.com/SidD11111"]}/>
           
           <Card person = "amani"
                 name = "Amani Urban"
-                role = "Head of Fundraising"
+                role = "Fundraising"
                 links = {["https://mail.google.com/mail/?view=cm&fs=1&to=amani.urban@gmail.com"]}/>
+
+          <Card person = "ankit"
+                name = "Ankit Rath"
+                role = "Marketing"
+                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=ankitrath2000@gmail.com"]}/>
           
           <Card person = "andrea"
                 name = "Andrea Kehaiova"
-                role = "Head of Advertising"
+                role = "Advertising"
                 links = {["https://mail.google.com/mail/?view=cm&fs=1&to=andreakehaiova@gmail.com"]}/>
 
           <Card person = "nandu"
                 name = "Nandana Voolapalli"
-                role = "Head of Outreach"
+                role = "Legal"
                 links = {["https://mail.google.com/mail/?view=cm&fs=1&to=andreakehaiova@gmail.com"]}/>
+
+            <div className = "Card">
+
+                  <div className = "Card-content">
+
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/avi.png"} className = "Card-volunteer-image" alt = ""/>
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/siya.png"} className = "Card-volunteer-image" alt = ""/>
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/stephanie.png"} className = "Card-volunteer-image" alt = ""/>
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/reyna.png"} className = "Card-volunteer-image" alt = ""/>
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/ruchika.png"} className = "Card-volunteer-image" alt = ""/>
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/haren.png"} className = "Card-volunteer-image" alt = ""/>
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/conant.jpg"} className = "Card-volunteer-image" alt = "" style = {{ width: "80%"}}/>
+                      
+                      
+                      <p className = "Card-name"> VOLUNTEERS </p>
+
+                  </div>
+          
+            </div>
+
+          {/* add kristin as well */}
 
           {/* <Card person = "gerard"
                 name = "Gerard Genovese"
@@ -69,26 +95,20 @@ function AboutUs () {
                 role = "rahul4realestate"
                 links = {["https://www.linkedin.com/in/rahulpatel121"]}/> */}
           
-          <Card person = "avi"
+          {/* <Card person = "avi"
                 name = "Avi Shah"
                 role = "First Aid"
-                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=avishahavi@gmail.com"]}/>
-          
-          <Card person = "ankit"
-                name = "Ankit Rath"
-                role = "Volunteer"
-                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=ankitrath2000@gmail.com"]}/>
+                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=avishahavi@gmail.com"]}/> */}
            
-          <Card person = "siya"
+          {/* <Card person = "siya"
                 name = "Siya Jariwala"
                 role = "Volunteer"
                 links = {["https://www.linkedin.com/in/siya-jariwala/", "https://mail.google.com/mail/?view=cm&fs=1&to=siyacj08@gmail.com"]}/>
            
-
           <Card person = "stephanie"
                 name = "Stephanie Filtcheva"
                 role = "Volunteer"
-                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=stephaniefiltcheva@gmail.com"]}/>
+                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=stephaniefiltcheva@gmail.com"]}/> */}
           
           {/* <Card person = "liam"
                 name = "Liam Cunningham"

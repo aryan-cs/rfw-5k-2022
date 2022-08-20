@@ -7,9 +7,9 @@ function Home () {
       <div className = "App" id="HomePage">
        
         <header className = "App-header">
-          
+           
           <p> #RUN FOR WATER <br></br> 2022 ｜ 5K </p>
-          <p className = "App-slogan"> CLEAN WATER, ONE STRIDE AT A TIME  </p>
+          <p className = "App-slogan"> <span style = {{color: "white"}}>RUN</span> & <span style = {{color: "white"}}>WALK</span> ｜ CLEAN WATER, ONE STRIDE AT A TIME </p>
           
           </header>
 
