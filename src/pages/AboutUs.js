@@ -62,7 +62,7 @@ function AboutUs () {
           <Card person = "nandu"
                 name = "Nandana Voolapalli"
                 role = "Legal"
-                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=andreakehaiova@gmail.com"]}/>
+                links = {["https://mail.google.com/mail/?view=cm&fs=1&to=andreakehaiova@gmail.com"]}/>     
 
             <div className = "Card">
 
@@ -73,15 +73,19 @@ function AboutUs () {
                       <img src = {process.env.PUBLIC_URL + "/assets/people/stephanie.png"} className = "Card-volunteer-image" alt = ""/>
                       <img src = {process.env.PUBLIC_URL + "/assets/people/reyna.png"} className = "Card-volunteer-image" alt = ""/>
                       <img src = {process.env.PUBLIC_URL + "/assets/people/ruchika.png"} className = "Card-volunteer-image" alt = ""/>
-                      <img src = {process.env.PUBLIC_URL + "/assets/people/haren.png"} className = "Card-volunteer-image" alt = ""/>
-                      <img src = {process.env.PUBLIC_URL + "/assets/people/conant.jpg"} className = "Card-volunteer-image" alt = "" style = {{ width: "80%"}}/>
-                      
+                      <img src = {process.env.PUBLIC_URL + "/assets/people/haren.png"} className = "Card-volunteer-image" alt = ""/>                      
                       
                       <p className = "Card-name"> VOLUNTEERS </p>
+                      <p className = "Card-role"> Avi Shah<br/>Siya Jariwala<br/>Stephanie Filtcheva<br/>Reyna Shah<br/>Ruchika Rout<br/>Haren Pylla </p>
 
                   </div>
           
             </div>
+
+          <Card person = "conant"
+                name = "Conant Cross Country"
+                role = "Volunteers"
+                links = {[""]}/> 
 
           {/* add kristin as well */}
 
